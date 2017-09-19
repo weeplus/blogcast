@@ -4,18 +4,16 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
     </head>
     <body>
       <header>
         <h1>Planets of the Universe</h1>
-        <nav>
-          <ul>
-            <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-            <li><a href="{{site.baseurl}}/news.html">News</a></li>
-          </ul>
-        </nav>
+        {% include nav.html %}
       </header>
       {{content}}
+      <footer>
+          {% include nav.html %}
+      </footer>
     </body>
 </html>
