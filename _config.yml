@@ -1,0 +1,3 @@
+markdown: kramdown
+baseurl: /blogcast
+exclude: ['README.md']
