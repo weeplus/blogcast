@@ -1,0 +1,13 @@
+title: Blogcast
+description: weeplus blogging
+
+markdown: kramdown
+baseurl: /blogcast
+exclude: ['READM.md', 'package.json', 'node_modules']
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+
+exclude: []
